@@ -1,0 +1,34 @@
+.container {
+    width:100%;
+    display: flex;
+    background-color:#f08080
+}
+.container a {
+    margin:10px 20px
+}
+.btn {
+    display: flex;
+    color: #444444FF;
+    background: #f08080;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #f08080;
+    transition: 0.3s;
+}
+.link {
+    cursor: pointer;
+}
+.fields {
+    margin-top: 20px;
+}
+.name, .email, .password, .confirmation_password, .button{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.name input, .email input, .password input, .confirmation_password input{
+    width: 400px;
+}

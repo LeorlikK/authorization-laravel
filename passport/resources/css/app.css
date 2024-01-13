@@ -1,0 +1,26 @@
+.btn {
+    display: flex;
+    color: #444444FF;
+    background: #f08080;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #f08080;
+    transition: 0.3s;
+}
+.link {
+    cursor: pointer;
+}
+.fields {
+    margin-top: 20px;
+}
+.email, .password, .button{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.email input, .password input{
+    width: 400px;
+}
